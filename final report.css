@@ -1,0 +1,276 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url(https://www.toptrendz.net/wp-content/uploads/2017/10/Happy-halloween-pictures-09.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: all ease 1s;
+	}
+	.navigation{
+		margin:0px 40px 0px 100px;
+		padding:10px;
+		box-sizing: border-box;}
+		.logo img{
+			width:80px;
+			height:60px;
+			animation:logo ease 1s;
+		}
+			.nav-right{
+				float:right;
+				font-family:myriadpro;
+				font-size:20px;
+				font-weight:bold;
+				padding: 8px 30px;
+				margin: 10px;
+				color:#ff8831;
+				border:2px solid #ff8831;
+				text-decoration: none;
+				box-sizing: border-box;
+				box-shadow: 2px 2px 15px rgba(219,219,219,0.2);}
+				.nav-down{
+				float:right;
+				font-family:myriadpro;
+				font-size:20px;
+				font-weight:bold;
+				padding: 8px 30px;
+				margin: 10px;
+				color:#ff8831;
+				border:2px solid #ff8831;
+				text-decoration: none;
+				box-sizing: border-box;
+				box-shadow: 2px 2px 15px rgba(219,219,219,0.2);}
+				.nav-up{
+				float:right;
+				font-family:myriadpro;
+				font-size:20px;
+				font-weight:bold;
+				padding: 8px 30px;
+				margin: 10px;
+				color:#ff8831;
+				border:2px solid #ff8831;
+				text-decoration: none;
+				box-sizing: border-box;
+				box-shadow: 2px 2px 15px rgba(219,219,219,0.2);}
+				.container{
+					position:absolute;
+					bottom:0px;
+					margin:0px;
+					box-sizing: border-box;}
+					.img-container{
+						float:right;
+						box-sizing:border-box;}
+						.img-container img{
+							height:670px;
+							max-height: 100%;
+							max-width: 100%;
+							display:flex;
+							flex-direction: column;
+							justify-content: center;
+							justify-content: flex-end;
+							flex-wrap: wrap;
+							box-sizing: border-box;}
+							.text-container{
+								float:left;
+								display:flex;
+								flex-direction:column;
+								justify-content: center;
+								width:500px;
+								color:#fff;
+								transform: translateY(70%);}
+								.hi{
+									float:right;
+									background:none;
+									font-size:30px;
+									font-family: "montserrat";
+									text-decoration: none;
+									color:whit;
+				
+								}
+								.hi:hover{
+									color:white;
+								  font-family:myriadpro;}
+				
+								
+
+								.text{
+									width:370px;
+									margin:0px 40px;}
+
+
+									h1{
+										font-size: 70px;
+										line-height:30px;
+										color:orange;
+										font-family:bebas kai;
+										letter-spacing: 10px;}
+								
+											.mode{
+												margin:0px opx 10px 20px;}
+										
+												p{
+													font-size:40px;
+													color:white;
+													font-family:myriad pro;}
+													input[type="button"]{
+														width:150px;
+														height:40px;
+														border-radius:10px;
+														outline:none;
+														border:none;
+														background-color:red;
+														font-weight:bold; }
+														input[type="button":active]{
+															transform:scale(1.1);
+														}
+							.brand{
+								position:absolute;
+								bottom:10px;
+								right:50px;
+								height:100px;}
+								.brand img{
+									max-height: 100%;
+									max-width: 100%;}
+									.line{
+										height: 80vh;
+										position:absolute;
+										left: 0px;
+										border-left:2px solid rgba(57,57,57,0.7);}
+								.smoke{
+									width:40vh;
+								}
+									.smoke img{
+										position:absolute;
+										bottom:0px;
+										right:0px;
+										max-width: 100%;
+										max-height: 100%;
+									}
+									.halloween{
+										display:none;}
+									@keyframes logo{
+										0%{
+											margin-left:20px;
+											width:40px;
+											height:60px;}
+										50%{
+											width:80px;
+											transform:scale(1.1);}
+										100%{
+											transform:scale(1);}
+
+
+										@media(max-width:1200px){
+
+											body{
+												background-image: url();}
+												.navigation{
+													position:absolute;
+													width:100%;
+													margin:0px;
+													padding: 0px;}
+													.logo{
+														margin:20px;}
+														.nav-right{
+															font-size: 12px;
+															margin:15px;}
+															.container{
+																margin:0px;
+																padding:0px;
+																height:100vh;
+
+						background:linear-gradient(0deg,#000 20%,transparent);
+						position: static;}
+						.img-container{
+							float:none;
+							display:none;
+							justify-content: center;
+							transition: all ease 0.3s;}
+							.img_container img{
+								height:540px;
+							transition: all ease 0.3s;}
+									.smoke{
+										display:none;}
+										.line{
+											display:none;}
+											.text-container{
+												float:none;
+												width: 100%;
+												background:linear-gradient(0deg,#000 80%,transparent);
+												position: absolute;
+												bottom: 20px;
+												transform: translate(0%);
+												transition: all ease 0.3s;}
+												.mode{
+													margin:0px 0px 10px 20px;}
+
+												p{
+													font-size:100px;}
+													input[type="button"]{
+														width:100px;
+														height:33px;}
+														.halloween{
+															display:black;
+															position:absolute;
+															bottom:30px;
+															right:10%;}
+															.halloween img{
+																width:330px;
+
+									}
+
+									@media(max-width: 800px){
+										
+										.img-container{
+											position:absolute;
+											bottom:30%;
+											width:100%;
+										}
+									.text{
+										width:270px;}
+										.h1{
+											font-size: 40px;
+										}
+										
+									}
+									@media(max-width: 610px){
+										.halloween img{
+											display:none;
+										}
+									}
+
+									
+															
+														
+											
+
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+
+
+									
+									
+								
+							
+
+
+
+							
+										
+
+
+											
